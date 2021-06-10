@@ -1,0 +1,17 @@
+Commande pour cloner le git sur ton ordinateur
+git clone https://github.com/Bebeh3/LABioTRON_Altium_Libraries.git
+
+
+Commande pour aller chercher les modifications en ligne
+git pull
+
+Commande pour pousser les modifications 
+git add --all
+git commit -m'Inscrire ici le commentaire concernant ce que vous ajouté'
+git push
+
+Si vous avez fait des modifications sur votre poste, git ne permet de 'pull'.
+Commande pour écraser vos modifications local et 'pull' du git
+git stash
+git pull
+
